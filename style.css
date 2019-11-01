@@ -1,0 +1,57 @@
+/* Truzz Blogg - How to center an image in CSS - 5 different ways to do that! */
+/* How to use the source code: 
+    1 - You have 5 different methods that you can use to center your image placed on your .html document
+    2 - You have to 'uncomment' any method presented in this document and 'play' with it! */
+/* Watch the original video here: https://www.youtube.com/watch?v=4GM6dLQsHAQ */
+
+/* Reset default browser's features */
+*   {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+/* Apply a dashed border to our image  */
+    img {
+        border: 3px dashed limegreen;
+    }
+
+   /* Method 1: Center an image using Flexbox */
+    /* .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: cornflowerblue;
+            padding: 20px;
+            height: 100vh;
+    } */
+
+    /* Method 2: Center using margin left y margin right */
+    /* #img-center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }  */
+
+    /* Method 3: Center using margin: 0 auto */
+    /* #img-center {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    } */
+
+    /* Method 4: Center an image using top|left|transform - Place the image in the middle of the document */
+    /* #img-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* Method 5: Center an image using text-align:center */
+/* .center {
+    width: 100%;
+    text-align: center;
+} */
+
+
